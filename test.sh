@@ -1,3 +1,5 @@
+export 
+
 echo "ls  /Users/runner/Library"
 echo "---------------------------------------------------"
 ls  /Users/runner/Library
