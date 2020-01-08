@@ -10,8 +10,7 @@
     "clean": "rm -rf ./node_modules **/{.project,*.iml,build} ./ios/{Pods,*.xcworkspace} ./android/{.gradle,.idea}",
     "test": "jest",
     "lint": "eslint .",
-	"format": "prettier --write \"**/*.+(js|ts|tsx)\"",
-	"postinstall": "./test.sh"
+    "format": "prettier --write \"**/*.+(js|ts|tsx)\""
   },
   "dependencies": {
     "@react-native-community/cli-platform-android": "^3.0.3",
